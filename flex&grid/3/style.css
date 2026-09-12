@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.columns {
+  display: flex;
+  gap: 15px;
+  width: 900px;
+  height: 300px;
+}
+
+.column {
+  flex: 1;
+  background-color: #4c6b8a;
+  color: #fff;
+  padding: 20px;
+  border: 1px solid #fff;
+  border-radius: 6px;
+}

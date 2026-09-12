@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 30px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 750px;
+}
+
+.tag {
+  background-color: #4c6b8a;
+  color: #fff;
+  font-size: 20px;
+  padding: 20px 30px;
+  border: 2px solid #a9c8d8;
+  border-radius: 8px;
+}
